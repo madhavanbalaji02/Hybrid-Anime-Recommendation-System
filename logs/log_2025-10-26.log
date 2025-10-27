@@ -1,0 +1,73 @@
+2025-10-26 04:00:49,697 - INFO - Succesfully read the YAML file
+2025-10-26 04:00:49,697 - INFO - Data Ingestion Started....
+2025-10-26 04:00:49,697 - INFO - Starting Data Ingestion Process....
+2025-10-26 04:00:49,697 - ERROR - Error while downloading data from GCP
+2025-10-26 04:00:49,697 - ERROR - CustomException : Error in /Users/madhavanbalaji/Documents/project/MLOPS-COURSE-PROJECT-2/src/data_ingestion.py , line 24 : Failed to download data
+2025-10-26 04:00:49,697 - INFO - Data Ingestion DONE...
+2025-10-26 04:10:12,399 - INFO - Succesfully read the YAML file
+2025-10-26 04:10:12,399 - INFO - Data Ingestion Started....
+2025-10-26 04:10:12,399 - INFO - Starting Data Ingestion Process....
+2025-10-26 04:10:13,185 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-10-26 04:10:13,467 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-10-26 04:10:50,684 - INFO - Large file detected Only downloading 5M rows
+2025-10-26 04:10:50,688 - INFO - Data Ingestion Completed...
+2025-10-26 04:10:50,688 - INFO - Data Ingestion DONE...
+2025-10-26 04:44:53,127 - INFO - DataProcessing Intialized
+2025-10-26 04:44:53,548 - INFO - Data loaded sucesfully for Data Processing
+2025-10-26 04:44:53,625 - INFO - Filtered users sucesfully...
+2025-10-26 04:44:54,237 - INFO - Scalind done for Processing 
+2025-10-26 04:44:54,289 - INFO - Encoding done for Users and Anime
+2025-10-26 04:44:54,535 - INFO - Data splitted sucesfullyy
+2025-10-26 04:44:54,541 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-10-26 04:44:54,546 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-10-26 04:44:54,564 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-10-26 04:44:54,582 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-10-26 04:44:57,113 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-10-26 04:44:59,494 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-10-26 04:44:59,495 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-10-26 04:53:59,107 - INFO - Model Training & COMET ML initialized..
+2025-10-26 04:53:59,901 - INFO - Data loaded sucesfully for Model Trainig
+2025-10-26 04:53:59,914 - INFO - Succesfully read the YAML file
+2025-10-26 04:53:59,914 - INFO - Loaded configuration from config.yaml
+2025-10-26 04:53:59,966 - INFO - Model created sucesfully....
+2025-10-26 04:54:14,760 - INFO - Model training Completedd.....
+2025-10-26 04:54:14,760 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-26 04:54:14,776 - INFO - Model saved to artifacts/model/model.h5
+2025-10-26 04:54:14,778 - INFO - Extracting weights for user_embedding
+2025-10-26 04:54:14,779 - INFO - Extracting weights for anime_embedding
+2025-10-26 04:54:14,793 - INFO - User and Anime weights saved sucesfully....
+2025-10-26 05:02:46,926 - INFO - Model Training & COMET ML initialized..
+2025-10-26 05:02:47,023 - INFO - Data loaded sucesfully for Model Trainig
+2025-10-26 05:02:47,035 - INFO - Succesfully read the YAML file
+2025-10-26 05:02:47,035 - INFO - Loaded configuration from config.yaml
+2025-10-26 05:02:47,064 - INFO - Model created sucesfully....
+2025-10-26 05:03:02,643 - INFO - Model training Completedd.....
+2025-10-26 05:03:02,644 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-26 05:03:02,661 - INFO - Model saved to artifacts/model/model.h5
+2025-10-26 05:03:02,662 - INFO - Extracting weights for user_embedding
+2025-10-26 05:03:02,663 - INFO - Extracting weights for anime_embedding
+2025-10-26 05:03:02,678 - INFO - User and Anime weights saved sucesfully....
+2025-10-26 05:08:32,640 - INFO - DataProcessing Intialized
+2025-10-26 05:08:33,078 - INFO - Data loaded sucesfully for Data Processing
+2025-10-26 05:08:33,164 - INFO - Filtered users sucesfully...
+2025-10-26 05:08:33,766 - INFO - Scalind done for Processing 
+2025-10-26 05:08:33,815 - INFO - Encoding done for Users and Anime
+2025-10-26 05:08:34,035 - INFO - Data splitted sucesfullyy
+2025-10-26 05:08:34,041 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-10-26 05:08:34,046 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-10-26 05:08:34,064 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-10-26 05:08:34,083 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-10-26 05:08:36,619 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-10-26 05:08:38,985 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-10-26 05:08:38,986 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-10-26 05:08:41,173 - INFO - Model Training & COMET ML initialized..
+2025-10-26 05:08:41,256 - INFO - Data loaded sucesfully for Model Trainig
+2025-10-26 05:08:41,269 - INFO - Succesfully read the YAML file
+2025-10-26 05:08:41,269 - INFO - Loaded configuration from config.yaml
+2025-10-26 05:08:41,300 - INFO - Model created sucesfully....
+2025-10-26 05:08:56,775 - INFO - Model training Completedd.....
+2025-10-26 05:08:56,776 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-26 05:08:56,791 - INFO - Model saved to artifacts/model/model.h5
+2025-10-26 05:08:56,792 - INFO - Extracting weights for user_embedding
+2025-10-26 05:08:56,793 - INFO - Extracting weights for anime_embedding
+2025-10-26 05:08:56,806 - INFO - User and Anime weights saved sucesfully....
